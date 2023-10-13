@@ -1,0 +1,46 @@
+<div class="container">
+  <section class="header">
+    <h1 class="title">Tá na Bíblia ou tá errado?</h1>
+    <p class="subtitle">O quanto você conhece a Bíblia?</p>
+  </section>
+
+  <section class="quiz">
+    <div class="info">
+      <button class="btn btn-primary reset" (click)="reset()">
+        <span class="fas fa-rotate"></span> Reiniciar
+      </button>
+
+      <span class="counter">{{ index + 1 }} / {{ totalQuestions }}</span>
+    </div>
+
+    <div class="score">Pontuação: {{ score }} acertos</div>
+
+    <div *ngIf="!showAnswer" class="question">
+      <p class="title">{{ question.title }}</p>
+
+      <div class="choice">
+        <button class="btn btn-truthy" (click)="sendAnswer(true)">
+          <span class="fas fa-thumbs-up"></span> Tá na Bíblia!!!
+        </button>
+
+        <button class="btn btn-falsy" (click)="sendAnswer(false)">
+          <span class="fas fa-thumbs-down"></span> Tá errado
+        </button>
+      </div>
+    </div>
+
+    <div *ngIf="showAnswer" class="result">
+      <p
+        class="title"
+        [ngClass]="{ correct: question.response, wrong: !question.response }"
+      >
+        {{ question.result }}
+      </p>
+      <p class="explanation">{{ question.explanation }}</p>
+
+      <button class="btn btn-primary next" (click)="next()">
+        Próxima <span class="fas fa-arrow-right"></span>
+      </button>
+    </div>
+  </section>
+</div>
