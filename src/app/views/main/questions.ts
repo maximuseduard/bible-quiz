@@ -38,7 +38,7 @@ export const questions: IQuestion[] = [
   {
     title: 'Se te mostras fraco no dia da angústia, a tua força é pequena',
     result: 'Tá na Bíblia!',
-    explanation: '',
+    explanation: 'Provérbios 24:10',
     response: true,
   },
   {
@@ -69,6 +69,13 @@ export const questions: IQuestion[] = [
     response: false,
   },
   {
+    title: 'Deus cansa de perdoar',
+    result: 'Tá na Bíblia!',
+    explanation:
+      'Jeremias 15:6 - Você me rejeitou", diz o Senhor; "Você vive se desviando. Por isso, porei as mãos em você e a destruirei; cansei-me de mostrar compaixão.',
+    response: true,
+  },
+  {
     title: 'Diga-me com quem andas e te direi quem és',
     result: 'Tá errado!',
     explanation:
@@ -87,6 +94,12 @@ export const questions: IQuestion[] = [
     result: 'Tá errado!',
     explanation: '',
     response: false,
+  },
+  {
+    title: 'O homem que maltrata sua esposa não tem suas orações atendidas',
+    result: 'Tá na Bíblia!',
+    explanation: '1 Pedro 3:7',
+    response: true,
   },
   {
     title: 'O cair é do homem, o levantar é de Deus',
@@ -110,8 +123,14 @@ export const questions: IQuestion[] = [
   {
     title: 'Até os cabelos da vossa cabeça estão todos contados',
     result: 'Tá na Bíblia!',
-    explanation: '',
+    explanation: 'Lucas 12:7',
     response: true,
+  },
+  {
+    title: 'Deus não chama os capacitados, capacita os escolhidos',
+    result: 'Tá errado!',
+    explanation: '',
+    response: false,
   },
   {
     title: 'Deus tarda mas não falha',
@@ -128,7 +147,7 @@ export const questions: IQuestion[] = [
   {
     title: 'O coração alegra aformoseia o rosto',
     result: 'Tá na Bíblia!',
-    explanation: '',
+    explanation: 'Provérbios 15:13',
     response: true,
   },
   {
@@ -147,7 +166,7 @@ export const questions: IQuestion[] = [
   {
     title: 'Do fruto de sua boca o homem se beneficia',
     result: 'Tá na Bíblia!',
-    explanation: '',
+    explanation: 'Provérbios 12:14',
     response: true,
   },
   {
@@ -160,7 +179,154 @@ export const questions: IQuestion[] = [
   {
     title: 'Obedecer é melhor que sacrificar',
     result: 'Tá na Bíblia!',
+    explanation: '1 Samuel 15:22',
+    response: true,
+  },
+  {
+    title: 'Deus é Deus de propósito',
+    result: 'Tá errado!',
     explanation: '',
+    response: false,
+  },
+  {
+    title:
+      'Jovem, aproveite a sua mocidade e seja feliz enquanto é moço. Faça tudo o que quiser e siga os desejos do seu coração.',
+    result: 'Tá na Bíblia!',
+    explanation:
+      'Eclesiastes 11:9-10 - Mas lembre de uma coisa: Deus o julgará por tudo o que você fizer. Não deixe que nada o preocupe ou faça sofrer, pois a mocidade dura pouco.',
+    response: true,
+  },
+  {
+    title: 'Quem dá aos pobres, empresta a Deus',
+    result: 'Tá errado!',
+    explanation: 'Provérbios 19:17',
+    response: false,
+  },
+  {
+    title: 'É dando que se recebe',
+    result: 'Tá errado!',
+    explanation: '',
+    response: false,
+  },
+  {
+    title:
+      'Não ames o sono, para que não empobreças; abre os teus olhos, e te fartarás de pão.',
+    result: 'Tá na Bíblia!',
+    explanation: 'Provérbios 20:13',
+    response: true,
+  },
+  {
+    title: 'Não julgueis, para que não sejais julgados.',
+    result: 'Tá na Bíblia!',
+    explanation: 'Mateus 7:1',
+    response: true,
+  },
+  {
+    title: 'Deus cegou o entendimento dos incrédulos',
+    result: 'Tá errado!',
+    explanation:
+      '2 Coríntios 4:4 - O deus desta era cegou o entendimento dos descrentes, para que não vejam a luz do evangelho da glória de Cristo, que é a imagem de Deus.',
+    response: false,
+  },
+  {
+    title:
+      'Não julgueis segundo a aparência, mas julgai segundo a reta justiça.',
+    result: 'Tá na Bíblia!',
+    explanation: 'João 7:24',
+    response: true,
+  },
+  {
+    title: 'Deus mudou o nome de Saulo para Paulo',
+    result: 'Tá errado!',
+    explanation:
+      'Atos 13.9 - Todavia Saulo, que também se chama Paulo, cheio do Espírito Santo, e fixando os olhos nele',
+    response: false,
+  },
+  {
+    title:
+      'A besta, satanás e o falso profeta foram lançados juntos no lago de fogo e enxofre',
+    result: 'Tá errado!',
+    explanation:
+      'Apocalipse 19,20 - Satanás será preso durante mil anos, iniciará outra guerra, e após a derrota será lançado no lago de fogo e enxofre',
+    response: false,
+  },
+  {
+    title: 'Jesus morreu por todos nós',
+    result: 'Tá errado!',
+    explanation:
+      'João 3.16 - Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna',
+    response: false,
+  },
+  {
+    title: 'Deus que envia a chuva sobre a Terra',
+    result: 'Tá na Bíblia!',
+    explanation:
+      'Jeremias 14:22 / Salmos 147:8 / Zacarias 10:1 / Jó 5:9-10 / Levítico 26:3-4',
+    response: true,
+  },
+  {
+    title: 'Fazer o bem sem olhar a quem',
+    result: 'Tá errado!',
+    explanation: '',
+    response: false,
+  },
+  {
+    title: 'Melhor estar onde há luto do que onde há festa',
+    result: 'Tá na Bíblia!',
+    explanation:
+      'Eclesiastes 7:2 - É melhor ir a uma casa onde há luto do que ir a uma casa onde há festa, pois onde há luto lembramos que um dia também vamos morrer. E os vivos nunca devem esquecer isso.',
+    response: true,
+  },
+  {
+    title:
+      'Eu, O Senhor, enviei os pastores como anjos para as igrejas, creiam neles',
+    result: 'Tá errado!',
+    explanation:
+      '1 João 4:1 - Amados, não creiam em qualquer espírito, mas examinem os espíritos para ver se eles procedem de Deus, porque muitos falsos profetas têm saído pelo mundo.',
+    response: false,
+  },
+  {
+    title: 'Se puder fazer o bem, faça rápido',
+    result: 'Tá na Bíblia!',
+    explanation:
+      'Provérbios 3.27 - Não diga ao seu vizinho que espere até amanhã, se você pode ajudá-lo hoje.',
+    response: true,
+  },
+  {
+    title: 'A voz do povo é a voz de Deus',
+    result: 'Tá errado!',
+    explanation: '',
+    response: false,
+  },
+  {
+    title: 'A palavra de Deus se renova a cada manhã',
+    result: 'Tá errado!',
+    explanation: 'Lamentações 3:22-23',
+    response: false,
+  },
+  {
+    title: 'O amor é sofredor',
+    result: 'Tá na Bíblia!',
+    explanation: '1 Coríntios 13:4',
+    response: true,
+  },
+  {
+    title: 'Deus ama os pecadores, mas odeia o pecado',
+    result: 'Tá errado!',
+    explanation: 'Apesar de ser verdadeiro, não está escrito',
+    response: false,
+  },
+  {
+    title: 'Deus ama os pecadores, mas odeia o pecado',
+    result: 'Tá errado!',
+    explanation: 'Apesar de ser verdadeiro, não está escrito',
+    response: false,
+  },
+  {
+    title: 'O amor é maior que a fé e a esperança',
+    result: 'Tá na Bíblia!',
+    explanation:
+      '1 Coríntios 13:13 - Agora, pois, permanecem a fé, a esperança e o amor, estes três, mas o maior destes é o amor.',
     response: true,
   },
 ];
