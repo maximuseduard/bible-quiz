@@ -22,11 +22,11 @@ export const questions: IQuestion[] = [
     response: true,
   },
   {
-    title: 'Pois o amor ao dinheiro é a raiz de todos os males',
-    result: 'Tá na Bíblia!',
+    title: 'Pois o dinheiro é a raiz de todos os males',
+    result: 'Tá errado!',
     explanation:
       'Vale atentar que é o "amor ao dinheiro" não o "dinheiro" em si: "pois o amor ao dinheiro é a raiz de todos os males. Algumas pessoas, por cobiçarem o dinheiro, desviaram-se da fé e se atormentaram com muitos sofrimentos" (1 Timóteo 6:10).',
-    response: true,
+    response: false,
   },
   {
     title: 'Quem com ferro fere, com ferro será ferido',
@@ -251,10 +251,10 @@ export const questions: IQuestion[] = [
     response: false,
   },
   {
-    title: 'Jesus morreu por todos nós',
+    title: 'Abraão sacrificou o próprio filho no monte',
     result: 'Tá errado!',
     explanation:
-      'João 3.16 - Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna',
+      'Ele não matou o filho, Deus impediu',
     response: false,
   },
   {
@@ -317,9 +317,9 @@ export const questions: IQuestion[] = [
     response: false,
   },
   {
-    title: 'Deus ama os pecadores, mas odeia o pecado',
+    title: 'Noé levou um casal de cada animal na arca',
     result: 'Tá errado!',
-    explanation: 'Apesar de ser verdadeiro, não está escrito',
+    explanation: '‭‭Gênesis‬ ‭7:2‬ ‭- De todo animal limpo levarás contigo sete pares: o macho e sua fêmea; mas dos animais imundos, um par: o macho e sua fêmea.',
     response: false,
   },
   {
@@ -328,5 +328,19 @@ export const questions: IQuestion[] = [
     explanation:
       '1 Coríntios 13:13 - Agora, pois, permanecem a fé, a esperança e o amor, estes três, mas o maior destes é o amor.',
     response: true,
+  },
+  {
+    title: 'Davi matou Golias com uma pedra',
+    result: 'Tá errado!',
+    explanation:
+      '1 Samuel 17.51 - "Por isso cotreu Davi, e pôs-se em pé sobre o filisteu, e tomou sua espada, e tirou-a da bainha, e o matou, e lhe cortou com ela a cabeca; ..."',
+    response: false,
+  },
+  {
+    title: 'Daniel fechou a boca dos leões',
+    result: 'Tá errado!',
+    explanation:
+      'Um anjo fechou a boca dos leões',
+    response: false,
   },
 ];
