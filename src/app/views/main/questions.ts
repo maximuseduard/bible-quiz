@@ -333,7 +333,7 @@ export const questions: IQuestion[] = [
     title: 'Davi matou Golias com uma pedra',
     result: 'Tá errado!',
     explanation:
-      '1 Samuel 17.51 - "Por isso cotreu Davi, e pôs-se em pé sobre o filisteu, e tomou sua espada, e tirou-a da bainha, e o matou, e lhe cortou com ela a cabeca; ..."',
+      '1 Samuel 17.51 - Por isso cotreu Davi, e pôs-se em pé sobre o filisteu, e tomou sua espada, e tirou-a da bainha, e o matou, e lhe cortou com ela a cabeca; ...',
     response: false,
   },
   {
