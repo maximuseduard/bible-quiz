@@ -319,7 +319,7 @@ export const questions: IQuestion[] = [
   {
     title: 'Noé levou um casal de cada animal na arca',
     result: 'Tá errado!',
-    explanation: '‭‭Gênesis‬ ‭7:2‬ ‭- De todo animal limpo levarás contigo sete pares: o macho e sua fêmea; mas dos animais imundos, um par: o macho e sua fêmea.',
+    explanation: 'Gênesis‬ ‭7:2‬ ‭- De todo animal limpo levarás contigo sete pares: o macho e sua fêmea; mas dos animais imundos, um par: o macho e sua fêmea.',
     response: false,
   },
   {
